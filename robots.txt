@@ -1,0 +1,61 @@
+# nascentidea.com — AI training crawlers blocked
+# © 2026 Michael Vladimer. AI training on this content is not authorized.
+
+# Search engines: allowed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Google AI training (separate from search indexing)
+User-agent: Google-Extended
+Disallow: /
+
+# Meta
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# Bytedance
+User-agent: Bytespider
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
