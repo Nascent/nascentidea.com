@@ -562,6 +562,28 @@ details[open] summary::after {
   margin-bottom: 12px;
 }
 
+.faq-blockquote {
+  border-left: 4px solid #1a1a2e;
+  background: #f4f4f8;
+  margin: 20px 0;
+  padding: 20px 24px;
+  border-radius: 0 6px 6px 0;
+}
+
+.faq-blockquote p {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.faq-blockquote cite {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: normal;
+}
+
 /* ===== About ===== */
 .about-grid {
   display: grid;
