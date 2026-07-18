@@ -2,7 +2,16 @@
 
 Last archived: 2026-05-20
 
-## No WIP. No TODOs or incomplete projects.
+## TODO: Add analytics to nascentidea.com — Cloudflare Web Analytics (free) for page views (#1) + GA4 (free) for CTA-click tracking (#2)
+
+Funnel Mike wants to measure: page views → CTA button clicks → booked meetings (#3 already visible in Cal.com). Currently ZERO analytics on the site (`index.html` has no tracking code — only script is a mobile-nav toggle). No retroactive data recoverable since May 20th launch.
+
+- **#1 page views** — Cloudflare Web Analytics (free). Natural to fold into the Cloudflare migration (pivotstory.org Cloudflare setup already queued). DNS currently at Namecheap; either move DNS to Cloudflare (also gets server-side traffic + CDN/SSL) or use JS-beacon mode without moving DNS.
+- **#2 CTA clicks** — GA4 (free). CTA = `https://cal.com/nascent/founder?ref=nascentidea.com` (external link), so GA4 Enhanced Measurement auto-tracks it as an outbound click. Add a cookie/consent notice with GA4.
+- Cal.com does NOT give #2 — its Insights track bookings only, not booking-page visits by referrer. Confirmed Jul 17th.
+- Mike chose Cloudflare + GA4 (both free) over Plausible ($9/mo). Deferred to a future session — "don't wanna deal w this now."
+
+## No other WIP.
 
 ---
 
