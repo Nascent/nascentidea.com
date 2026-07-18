@@ -1,6 +1,6 @@
 # nascentidea.com Changelog
 
-Last archived: 2026-05-20
+Last archived: 2026-07-17
 
 ## TODO: Add analytics to nascentidea.com — Cloudflare Web Analytics (free) for page views (#1) + GA4 (free) for CTA-click tracking (#2)
 
@@ -11,9 +11,11 @@ Funnel Mike wants to measure: page views → CTA button clicks → booked meetin
 - Cal.com does NOT give #2 — its Insights track bookings only, not booking-page visits by referrer. Confirmed Jul 17th.
 - Mike chose Cloudflare + GA4 (both free) over Plausible ($9/mo). Deferred to a future session — "don't wanna deal w this now."
 
+
 ## No other WIP.
 
 ---
+
 
 ## [~2:30 PM] PT Thu Jul 16th 2026
 
@@ -28,24 +30,5 @@ Funnel Mike wants to measure: page views → CTA button clicks → booked meetin
 - If SEO/AEO on coined terms (ERNY, QPG, disideation) is ever wanted, the play is content on nascentidea.com or Substack (where authority exists), not domains. Out of scope here.
 - Domains lapse naturally on their expiration dates; $170 written off.
 - Mike confirmed nascentstartups.com email + auto-renew settings are under control (not CC's concern).
-
----
-
-
-## [~12:00 PM] PT Wed May 20th 2026
-
-### Remove Paul Tepper testimonial + add ERNY pronunciation note
-
-**What was done:**
-
-- Removed Paul Tepper testimonial blockquote from index.html (was between Doug Ambort and Ellen Classen). Per Mike: rest of website stays as-is.
-- Kept `images/PaulTepper-linkedin-1516284815226.jpeg` on disk in case the testimonial returns later.
-- Added inline pronunciation note `(ERNY, pronounced "Ernie")` in 2 spots: pricing deliverables paragraph and FAQ 2.3 ERNY definition. (Edit had been sitting uncommitted since Feb 13th 2026.)
-- Started tracking `changelog.md` in git (previously untracked since Feb).
-
-**Commits:**
-
-- `643095d` — Add ERNY pronunciation note ("Ernie")
-- `137e1f5` — Remove Paul Tepper testimonial
 
 ---

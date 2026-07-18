@@ -1,0 +1,23 @@
+# Podcast Changelog Archive -- May 2026
+
+Archived from changelog.md on Jul 17, 2026.
+
+---
+
+## [~12:00 PM] PT Wed May 20th 2026
+
+### Remove Paul Tepper testimonial + add ERNY pronunciation note
+
+**What was done:**
+
+- Removed Paul Tepper testimonial blockquote from index.html (was between Doug Ambort and Ellen Classen). Per Mike: rest of website stays as-is.
+- Kept `images/PaulTepper-linkedin-1516284815226.jpeg` on disk in case the testimonial returns later.
+- Added inline pronunciation note `(ERNY, pronounced "Ernie")` in 2 spots: pricing deliverables paragraph and FAQ 2.3 ERNY definition. (Edit had been sitting uncommitted since Feb 13th 2026.)
+- Started tracking `changelog.md` in git (previously untracked since Feb).
+
+**Commits:**
+
+- `643095d` — Add ERNY pronunciation note ("Ernie")
+- `137e1f5` — Remove Paul Tepper testimonial
+
+---
